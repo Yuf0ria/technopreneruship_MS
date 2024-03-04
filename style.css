@@ -76,7 +76,8 @@ body{
     color: #1a1a1a;
 }
 
-#navbar li a:hover{
+#navbar li a:hover,
+#navbar li a.active{
     color: #ff914d;
 }
 
