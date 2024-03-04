@@ -67,6 +67,7 @@ body{
 #navbar li{
     list-style: none;
     padding: 0 20px;
+    position: relative;
 }
 
 #navbar li a{
@@ -81,4 +82,14 @@ body{
     color: #ff914d;
 }
 
+#navbar li a.active::after,#navbar li a:hover::after
+{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #ffbd59;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
 /*Home*/
