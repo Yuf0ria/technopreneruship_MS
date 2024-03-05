@@ -145,6 +145,86 @@ body{
     font-size: 20px;
 }
 
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .featureBox {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .featureBox:hover{
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.1);
+}
+
+#feature .featureBox img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .featureBox h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: white;
+    background-color: #ff914d;
+}
+
+/*#feature .featureBox:nth-child(2) h6{
+  background-color: insert color here;  
+    
+} -in case of wanting to change color*/
+
+#products{
+    text-align: center;
+}
+
+#products .pro{
+    width: 33%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cecece;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease-in-out;
+}
+
+#products .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#products .pro img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#products .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#products .pro .des span{
+    color: lightgray;
+    font-size: 12px;
+}
+
+#products .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
 
 /*Home*/
 
