@@ -55,6 +55,10 @@ body{
     padding: 20px 80px;
     background: #ffffff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 
 }
 
@@ -80,6 +84,8 @@ body{
 #navbar li a:hover,
 #navbar li a.active{
     color: #ff914d;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 #navbar li a.active::after,#navbar li a:hover::after
@@ -91,5 +97,59 @@ body{
     position: absolute;
     bottom: -4px;
     left: 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+#here{
+    background-image: url("/img/YUFORIA_Illustration16_9.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#here h4{
+    padding-bottom: 15px;
+}
+
+#here h1{
+    color: #ff914d;
+}
+
+#here button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    color:white;
+    background-color:  #ff914d;
+    border: 2px solid #ff914d;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#here button:hover{
+    background-color:  #ffbd59;
+    color: #ff914d;
+    border: 2px solid #ffbd59;
+    border-radius: 30px;
+    border-width: 8px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
 /*Home*/
+
+/*Shop*/
+
+/*Produc*/
+
+/*News*/
