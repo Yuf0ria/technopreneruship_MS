@@ -53,7 +53,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #ffffff;
+    background: #e2dddd;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     z-index: 999;
     position: sticky;
