@@ -53,7 +53,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #e2dddd;
+    background: #eeeaea;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     z-index: 999;
     position: sticky;
@@ -224,6 +224,10 @@ body{
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
+}
+
+#products .pro .des i{
+    font-size: 12px;
 }
 
 /*Home*/
