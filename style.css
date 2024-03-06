@@ -102,7 +102,7 @@ body{
 }
 
 #here{
-    background-image: url("/img/YUFORIA_Illustration16_9.jpg");
+    background-image: url("/img/Untitled\ design.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -114,8 +114,9 @@ body{
     justify-content: center;
 }
 
-#here h4{
+#here h4,#here h2,#here p{
     padding-bottom: 15px;
+    color: #eeeaea;
 }
 
 #here h1{
@@ -187,10 +188,53 @@ body{
 
 #products{
     text-align: center;
+    overflow: hidden;
+}
+
+#products .a-container{
+    position: relative;
+}
+
+#products .pro-container {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 50px;
+    padding: 10px;
+    flex: none;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#products .pro-container::-webkit-scrollbar{
+    display: none;
+}
+
+#products .pro-container .left,#products .pro-container .right {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+#products .pro-container .right {
+    right: 0;
+    background: linear-gradient(to left, #f7f3f3 50%, transparent);
+    justify-content: flex-end;
+}
+
+#products .pro-container .left {
+    left: 0;
+    background: linear-gradient(to right, #f7f3f3 50%, transparent);
 }
 
 #products .pro{
-    width: 33%;
+    width: 20%;
     min-width: 250px;
     padding: 10px 12px;
     border: 1px solid #cecece;
@@ -199,10 +243,16 @@ body{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
     transition: 0.2s ease-in-out;
+    position: relative;
+    transition: transform 0.5s;
+    filter: grayscale(50%);
 }
 
 #products .pro:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    filter: grayscale(0);
+    transform: scale(1.05);
 }
 
 #products .pro img{
@@ -237,6 +287,17 @@ body{
     color: #ff914d;
 }
 
+#products .pro .plus {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color:  #fed4b5;
+    border-radius: 50px;
+    border: 1px solid #fdb986;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
 /*Home*/
 
 /*Shop*/
