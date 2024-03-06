@@ -230,6 +230,13 @@ body{
     font-size: 12px;
 }
 
+#products .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ff914d;
+}
+
 /*Home*/
 
 /*Shop*/
