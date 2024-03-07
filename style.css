@@ -219,7 +219,7 @@ body{
     top: 0;
     position: absolute;
     padding: 0 10px;
-    border-radius: 20px;
+    
 }
 
 #products .pro-container .right {
@@ -230,7 +230,7 @@ body{
 
 #products .pro-container .left {
     left: 0;
-    background: linear-gradient(to right, #f7f3f3 50%, transparent);
+    background: linear-gradient(to right, #f7f3f3 60%, transparent);
 }
 
 #products .pro{
