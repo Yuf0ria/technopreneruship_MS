@@ -217,20 +217,20 @@ body{
     width: 100px;
     height: 100%;
     top: 0;
-    position: absolute;
     padding: 0 10px;
+    position: absolute;
     
 }
 
 #products .pro-container .right {
     right: 0;
     background: linear-gradient(to left, #f7f3f3 50%, transparent);
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 #products .pro-container .left {
-    left: 0;
-    background: linear-gradient(to right, #f7f3f3 60%, transparent);
+    left: 0px;
+    background: linear-gradient(to right, #f7f3f3 50%, transparent);
 }
 
 #products .pro{
