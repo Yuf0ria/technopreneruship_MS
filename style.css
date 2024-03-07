@@ -217,19 +217,19 @@ body{
     width: 100px;
     height: 100%;
     top: 0;
-    padding: 0 10px;
     position: absolute;
+    padding: 0 10px;
     
 }
 
 #products .pro-container .right {
     right: 0;
     background: linear-gradient(to left, #f7f3f3 50%, transparent);
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 #products .pro-container .left {
-    left: 0px;
+    left: 0;
     background: linear-gradient(to right, #f7f3f3 50%, transparent);
 }
 
