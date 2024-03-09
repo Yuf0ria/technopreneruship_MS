@@ -1,5 +1,5 @@
 let scrollContainer = document.querySelector(".pro-container");
-let backBtn = document.getElementById("backBtn");
+let backBtnBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
 
 scrollContainer.addEventListener("wheel", (evt) => {
@@ -10,10 +10,10 @@ scrollContainer.addEventListener("wheel", (evt) => {
 
 nextBtn.addEventListener("click", () =>{
     scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft += 900;
+    scrollContainer.scrollLeft += 120;
 })
 
 backBtn.addEventListener("click", () =>{
     scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft -= 900;
+    scrollContainer.scrollLeft -= 120;
 })

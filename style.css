@@ -224,13 +224,13 @@ body{
 
 #products .pro-container .right {
     right: 0;
-    background: linear-gradient(to left, #f7f3f3 50%, transparent);
+    background: linear-gradient(to left, #ffffff 50%, transparent);
     justify-content: flex-end;
 }
 
 #products .pro-container .left {
     left: 0;
-    background: linear-gradient(to right, #f7f3f3 50%, transparent);
+    background: linear-gradient(to right, #ffffff 50%, transparent);
 }
 
 #products .pro{
