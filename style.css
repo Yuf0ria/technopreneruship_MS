@@ -9,18 +9,18 @@
 h1{
     font-size: 50px;
     line-height: 64px;
-    color: #222
+    color: #F4F4F4
 }
 
 h2{
     font-size: 46px;
     line-height: 64px;
-    color: #222;
+    color: #F4F4F4;
 }
 
 h4{
     font-size: 20px;
-    color: #222;
+    color: #F4F4F4;
 }
 
 h6{
@@ -30,7 +30,7 @@ h6{
 
 p{
     font-size: 16px;
-    color: #465b52;
+    color: #FF7315;
     margin: 15px 0 20px 0;
 }
 
@@ -44,6 +44,7 @@ p{
 
 body{
     width: 100%;
+    background-color: #232020;
 }
 
 /*Header*/
@@ -53,7 +54,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #eeeaea;
+    background: #232020;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     z-index: 999;
     position: sticky;
@@ -78,12 +79,12 @@ body{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #ffffff;
 }
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: #ff914d;
+    color: #FF7315;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -93,7 +94,7 @@ body{
     content: "";
     width: 30%;
     height: 2px;
-    background: #ffbd59;
+    background: #FF7315;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -116,19 +117,19 @@ body{
 
 #here h4,#here h2,#here p{
     padding-bottom: 15px;
-    color: #eeeaea;
+    color: #F4F4F4;
 }
 
 #here h1{
-    color: #ff914d;
+    color: #FF7315;
 }
 
 #here button{
     margin-top: 10px;
     padding: 10px 20px;
-    color:white;
-    background-color:  #ff914d;
-    border: 2px solid #ff914d;
+    color:#F4F4F4;
+    background-color:  #232020;
+    border: 2px solid #232020;
     border-radius: 20px;
     cursor: pointer;
     transition: 0.3s;
@@ -137,9 +138,9 @@ body{
 }
 
 #here button:hover{
-    background-color:  #ffbd59;
-    color: #ff914d;
-    border: 2px solid #ffbd59;
+    background-color:  #3A3535;
+    color: #FF7315;
+    border: 2px solid #3A3535;
     border-radius: 30px;
     border-width: 8px;
     font-weight: 700;
@@ -157,14 +158,15 @@ body{
     width: 180px;
     text-align: center;
     padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
-    border: 1px solid #cecece;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    background-color: #3A3535;
+    border: 1px solid #3A3535;
     border-radius: 4px;
     margin: 15px 0;
 }
 
 #feature .featureBox:hover{
-    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 54px rgba(255, 115, 0, 0.1);
 }
 
 #feature .featureBox img{
@@ -224,20 +226,21 @@ body{
 
 #products .pro-container .right {
     right: 0;
-    background: linear-gradient(to left, #ffffff 50%, transparent);
+    background: linear-gradient(to left, #232020 50%, transparent);
     justify-content: flex-end;
 }
 
 #products .pro-container .left {
     left: 0;
-    background: linear-gradient(to right, #ffffff 50%, transparent);
+    background: linear-gradient(to right, #232020 50%, transparent);
 }
 
 #products .pro{
     width: 20%;
     min-width: 250px;
     padding: 10px 12px;
-    border: 1px solid #cecece;
+    background-color: #3A3535;
+    border: 1px solid #3A3535;
     border-radius: 15px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -245,13 +248,11 @@ body{
     transition: 0.2s ease-in-out;
     position: relative;
     transition: transform 0.5s;
-    filter: grayscale(50%);
 }
 
 #products .pro:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
     cursor: pointer;
-    filter: grayscale(0);
     transform: scale(1.05);
 }
 
@@ -266,13 +267,13 @@ body{
 }
 
 #products .pro .des span{
-    color: lightgray;
+    color: #F4F4F4;
     font-size: 12px;
 }
 
 #products .pro .des h5{
     padding-top: 7px;
-    color: #1a1a1a;
+    color: #F4F4F4;
     font-size: 14px;
 }
 
@@ -306,18 +307,6 @@ body{
     align-items: center;
     text-align: center;
     background-image: url();
-}
-
-.dark-mode {
-    background-color: black;
-}
-
-.dark-mode h2, h4, h1, p, span{
-    color: #FFFFFF;
-}
-
-#products .pro .des .dark-mode h5{
-    color: #FFFFFF;
 }
 
 
