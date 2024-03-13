@@ -307,6 +307,20 @@ body{
     text-align: center;
     background-image: url();
 }
+
+.dark-mode {
+    background-color: black;
+}
+
+.dark-mode h2, h4, h1, p, span{
+    color: #FFFFFF;
+}
+
+#products .pro .des .dark-mode h5{
+    color: #FFFFFF;
+}
+
+
 /*Home*/
 
 /*Shop*/

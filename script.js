@@ -17,3 +17,8 @@ backBtn.addEventListener("click", () =>{
     scrollContainer.style.scrollBehavior = "smooth";
     scrollContainer.scrollLeft -= 120;
 })
+
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
