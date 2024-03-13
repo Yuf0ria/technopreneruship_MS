@@ -63,6 +63,11 @@ body{
 
 }
 
+#header .logo {
+    width: 100x;
+    height: 50px;
+}
+
 #navbar{
     display: flex;
     align-items: center;
@@ -180,7 +185,7 @@ body{
     line-height: 1;
     border-radius: 4px;
     color: white;
-    background-color: #ff914d;
+    background-color: #FF7315;
 }
 
 /*#feature .featureBox:nth-child(2) h6{
@@ -285,16 +290,16 @@ body{
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
-    color: #ff914d;
+    color: #FF7315;
 }
 
 #products .pro .plus {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background-color:  #fed4b5;
+    background-color:  #F4F4F4;
     border-radius: 50px;
-    border: 1px solid #fdb986;
+    border: 1px solid #F4F4F4;
     position: absolute;
     bottom: 20px;
     right: 10px;
