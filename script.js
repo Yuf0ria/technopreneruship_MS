@@ -9,11 +9,11 @@ scrollContainer.addEventListener("wheel", (evt) => {
 });
 
 nextBtn.addEventListener("click", () =>{
-    scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft += 120;
-})
+    scrollContainer.style.scrollBehavior = "inherit";
+    scrollContainer.scrollLeft += 200;
+});
 
 backBtn.addEventListener("click", () =>{
-    scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft -= 120;
-})
+    scrollContainer.style.scrollBehavior = "inherit";
+    scrollContainer.scrollLeft -= 200;
+});
