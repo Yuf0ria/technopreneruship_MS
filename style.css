@@ -68,7 +68,7 @@ body{
     justify-content: space-between;
     padding: 20px 80px;
     background: #232020;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(244, 244, 244, 0.03);
     z-index: 999;
     position: sticky;
     top: 0;
