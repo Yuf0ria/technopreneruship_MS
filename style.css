@@ -450,6 +450,14 @@ body{
     margin-bottom: 20px;
 }
 
+#banner3 .banner-box2{
+    background-image: url();/*different img from the banner img*/
+}
+
+#banner3 .banner-box3{
+    background-image: url();/*different img from the banner img*/
+}
+
 #banner3 h2{
     font-weight: 900;
     font-size: 22px;
@@ -460,6 +468,14 @@ body{
     font-weight: 800;
     font-size: 15px;
 }
+
+/*CSS space for newsletter but I skipped it*/
+
+
+
+
+/*--E N D--*/
+
 
 
 /*Shop*/
