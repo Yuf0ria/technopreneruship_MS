@@ -42,6 +42,8 @@ p{
     margin: 40px 0;
 }
 
+/*Copy for Quick Comments.. Crtl+backspace for word delete<3*/
+
 button.normal{
     font-size: 14px;
     font-weight: 600;
@@ -51,6 +53,18 @@ button.normal{
     padding: 15px 30px;
     cursor: pointer;
     border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #f4f4f4;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #F4F4F4;
     outline: none;
     transition: 0.2s;
 }
@@ -119,6 +133,8 @@ body{
     cursor: pointer;
     transition: 0.3s;
 }
+
+/*Home*/
 
 #here{
     background-image: url("img/Untitled\ design.png");
@@ -365,10 +381,86 @@ body{
 
 /*#banner span{
     color: ;
-}/*
+}*/
 
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
-/*Home*/
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url();/*different img from the banner img*/
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2{
+    background-image: url();/*different img from the banner img*/
+}
+
+#sm-banner h4{
+    color: #F4F4F4;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: #F4F4F4;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+    background: #3A3535;
+    border: 1px solid #3A3535;
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url();/*different img from the banner img*/
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    color: #FF7315;
+    font-weight: 800;
+    font-size: 15px;
+}
+
 
 /*Shop*/
 
