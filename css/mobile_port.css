@@ -122,12 +122,17 @@
         padding: 10px 30px;
     }
 
+    #mobile i{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
     h1{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     h2{
-        font-size: 16px;
+        font-size: 8px;
     }
 
     #here {
@@ -147,6 +152,13 @@
 
     #products .pro {
         width: 100%;
+    }
+
+    #products .pro-container1 {
+        align-items: start;
+        justify-content: space-between;
+        grid-gap: 0;
+        padding: 0;
     }
 
     #products .pro-container .left {
