@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "mobile_port.css";
 /*Generally used*/
 *{
     margin: 0;
@@ -87,7 +88,6 @@ body{
     position: sticky;
     top: 0;
     left: 0;
-
 }
 
 #header .logo {
@@ -201,42 +201,4 @@ footer .follow i:hover, footer a:hover{
 footer .copyright{
     width: 100%;
     text-align: center;
-}
-
-/*mobile port*/
-#mobile{
-    display: none;
-    align-items: center;
-}
-
-@media (max-width: 820px){
-    #navbar{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;
-        background-color: #3A3535;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 1);
-        padding: 80px 0 0 10px;
-    }
-
-    #navbar li{
-        margin-bottom: 15px;
-    }
-
-    #mobile {
-        display: flex;
-        align-items: center;
-    }
-
-    #mobile i{
-        color: #F4F4F4;
-        font-size: 24px;
-        padding-left: 20px;
-    }
 }
