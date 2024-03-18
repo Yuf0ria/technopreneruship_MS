@@ -259,7 +259,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url();/*add banner after making the header*/
+    background-image: url(css_img/Untitled\ design.png);/*add banner after making the header*/
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -288,7 +288,7 @@
 
 #sm-banner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -297,16 +297,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url();/*different img from the banner img*/
-    min-width: 580px;
-    height: 50vh;
+    background-image: url(css_img/YUFORIA_Illustration16_9.jpg);/*different img from the banner img*/
+    width: 840px;
+    height: 30vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
 }
 
 #sm-banner .banner-box2{
-    background-image: url();/*different img from the banner img*/
+    background-image: url(css_img/Untitled\ design.png);/*different img from the banner img*/
 }
 
 #sm-banner h4{
@@ -334,9 +334,9 @@
 
 #banner3{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 0 80px;
+    padding: 0 20px;
 }
 
 #banner3 .banner-box{
@@ -344,9 +344,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url();/*different img from the banner img*/
-    min-width: 30%;
-    height: 30vh;
+    background-image: url(css_img/Untitled\ design.png);/*different img from the banner img*/
+    min-width: 28%;
+    height: 15vh;
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -354,11 +354,11 @@
 }
 
 #banner3 .banner-box2{
-    background-image: url();/*different img from the banner img*/
+    background-image: url(css_img/Untitled\ design.png);/*different img from the banner img*/
 }
 
 #banner3 .banner-box3{
-    background-image: url();/*different img from the banner img*/
+    background-image: url(css_img/Untitled\ design.png);/*different img from the banner img*/
 }
 
 #banner3 h2{

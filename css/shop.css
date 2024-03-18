@@ -1,2 +1,32 @@
 @import "style.css";
 @import "Home.css";
+
+#page-header{
+    background-image: url(css_img/banner_sample_shop.png);
+    width: 1920px;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p{
+    color: #F4F4F4;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #FF7315;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #F4F4F4;
+    font-weight: 600;
+}
