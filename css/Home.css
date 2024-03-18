@@ -1,5 +1,3 @@
-@import "style.css";
-
 #here{
     background-image: url("css_img/Untitled\ design.png");
     height: 90vh;
@@ -220,14 +218,14 @@
 }
 
 #products .pro .plus {
-    font-size: 24px;
+    font-size: 20px;
     color: #F4F4F4;
-    background-color: rgba(244, 244, 244, 0.3);
+    background-color: rgba(244, 244, 244, 0.1);
     width: 60px;
     height: 60px;
     line-height:60px;
-    border-radius: 50px;
-    border: 1px solid #F4F4F4;
+    border-radius: 40px;
+    border: 1px solid #3A3535;
     position: absolute;
     bottom: 20px;
     right: 10px;
@@ -241,8 +239,8 @@
     width: 65px;
     height: 65px;
     line-height:65px;
-    border-radius: 50px;
-    border: 1px solid #FF7315;
+    border-radius: 20px;
+    border: 1px solid #3A3535;
     cursor: pointer;
     transform: scale(1.05);
 }

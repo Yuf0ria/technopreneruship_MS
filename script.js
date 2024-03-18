@@ -22,9 +22,9 @@ backBtn.addEventListener("click", () =>{
 });
 
 //mobile navigation port, stle.css
-const bar = document.getElementById('bar');//id variable of the bar icon
-const close = document.getElementById('close');//id variable of the close icon in nav
-const nav = document.getElementById('navbar'); //navigation bar in the mobile port
+const bar = document.getElementById("bar");//id variable of the bar icon
+const close = document.getElementById("close");//id variable of the close icon in nav
+const nav = document.getElementById("navbar"); //navigation bar in the mobile port
 
 if(bar){
     bar.addEventListener('click', () => {
@@ -37,3 +37,7 @@ if(close){
         nav.classList.remove('active')
     })
 }
+
+//Img UI in sproduct.html
+var MainImg = document.getElementById("MainImg");
+var smalling = document.getElementsByClassName("small-img")

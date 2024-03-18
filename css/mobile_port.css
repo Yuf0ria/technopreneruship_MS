@@ -63,7 +63,7 @@
     }
 
     #here {
-        height: 70vh;
+        height: 50vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
@@ -77,11 +77,14 @@
     }
 
     #products .pro-container1 {
-        justify-content: center;
+        justify-content: space-between;
+        grid-gap: 0;
+        padding: 70px;
     }
 
     #products .pro {
         margin: 15px ;
+        box-shadow: 20px 30px rgba(244, 244, 244, 0);
     }
 
     #products .pro-container .left {
@@ -93,7 +96,7 @@
     }
 
     #banner{
-        height: 40vh;
+        height: 30vh;
     }
 
     #sm-banner .banner-box {
@@ -105,11 +108,11 @@
     }
 
     #banner3 {
-        padding: 0 20px;
+        padding: 0;
     }
 
     #banner3 .banner-box{
-        width: 85%;
+        width: 90%;
     }
 }
 
@@ -121,6 +124,10 @@
         padding: 0;
     }
 
+    #navbar{
+        right: -400px;
+    }
+
     #mobile i{
         font-size: 18px;
         padding-left: 10px;
@@ -130,20 +137,38 @@
         padding: 10px 30px;
     }
 
-    h1{
-        font-size: 38px;
+    h4{
+        font-size: 16px;
+        padding-bottom: 5px;
     }
+
+    h1{
+        font-size: 28px;
+    }
+
     h2{
-        font-size: 32px;
+        font-size: 24px;
+        line-height: 20px;
+    }
+
+    button.normal{
+        font-size: 10px;
+        padding: 10px 20px;
+
     }
 
     #here {
         padding: 0 20px;
         background-position: 55%;
+        height: 40vh;
     }
 
-    #feature {
-        justify-content: space-between;
+    #here h4, #here h2, #here p{
+        padding-bottom: 8px;
+      }
+
+    #feature{
+        padding-top: 20px;
     }
 
     #feature .featureBox {
@@ -153,13 +178,12 @@
 
     #products .pro {
         width: 100%;
+        box-shadow: 20px 30px rgba(244, 244, 244, 0);
+        min-width: 150px;
     }
 
     #products .pro-container1 {
         align-items: start;
-        justify-content: space-between;
-        grid-gap: 0;
-        padding: 0;
     }
 
     #products .pro-container .left {
@@ -171,7 +195,7 @@
     }
 
     #banner{
-        height: 40vh;
+        height: 20vh;
     }
 
     #sm-banner .banner-box{
@@ -179,15 +203,20 @@
     }
 
     #sm-banner .banner-box2{
-        margin-top: 20px;
+        margin: 20px 0;
+        padding-bottom: 20px;
     }
 
     #banner3 {
-        padding: 0 20px;
+        padding: 20px 0;
     }
 
     #banner3 .banner-box{
-        width: 85%;
+        width: 100%;
+    }
+
+    footer{
+        margin: 0 20px;
     }
 
     footer .copyright{
