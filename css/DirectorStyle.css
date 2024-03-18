@@ -1,5 +1,21 @@
+/*Welcome to the CSS Directory!
+
+This file is a compilation every CSS made due to the following reasons:
+-Easier customization
+-Quick Changes
+-Simple de-bugging and Bug fixes
+
+@updated On: 3/18/2024
+*/
+
+/**/
+
+/*Html Customization*/
 @import "style.css";
 @import "Home.css";
 @import "shop.css";
-@import "mobile_port.css";
 @import "productdetail.css";
+
+/*Mobile Customization*/
+@import "mobile_port.css";
+@import "mobile_port_480v.css";

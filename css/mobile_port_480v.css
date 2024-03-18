@@ -1,0 +1,132 @@
+@media(max-width: 480px){
+
+    /*general*/
+    .section-p1{
+        padding: 0;
+    }
+
+    h4{
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 24px;
+        line-height: 20px;
+    }
+
+    #mobile i{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    #navbar{
+        right: -400px;
+    }
+
+    footer{
+        margin: 0 20px;
+    }
+
+    footer .copyright{
+        text-align: start;
+    }
+
+    /*applicable to index*/
+
+    #header{
+        padding: 10px 30px;
+    }
+
+
+    button.normal{
+        font-size: 10px;
+        padding: 10px 20px;
+
+    }
+
+    #here {
+        padding: 0 20px;
+        background-position: 55%;
+        height: 40vh;
+    }
+
+    #here h4, #here h2, #here p{
+        padding-bottom: 8px;
+      }
+
+    #feature{
+        padding-top: 20px;
+    }
+
+    #feature .featureBox {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #products .pro {
+        width: 100%;
+        box-shadow: 20px 30px rgba(244, 244, 244, 0);
+        min-width: 150px;
+    }
+
+    #products .pro-container1 {
+        align-items: start;
+    }
+
+    #products .pro-container .left {
+        transform: translateX(-6rem);
+    }
+
+    #products .pro-container .right {
+        transform: translateX(6rem);
+    }
+
+    #banner{
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box{
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box2{
+        margin: 20px 0;
+        padding-bottom: 20px;
+    }
+
+    #banner3 {
+        padding: 20px 0;
+    }
+
+    #banner3 .banner-box{
+        width: 100%;
+    }
+
+    /*Shop ClassName*/
+
+    #page-header {
+        background-image: url(css_img/banner_sample_shop_480.png);
+        max-width: 390px;
+        height: 40vh;
+    }
+
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-img{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+      }
+
+}

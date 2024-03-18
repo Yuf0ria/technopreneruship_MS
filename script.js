@@ -38,6 +38,45 @@ if(close){
     })
 }
 
-//Img UI in sproduct.html
-var MainImg = document.getElementById("MainImg");
-var smalling = document.getElementsByClassName("small-img")
+//Transferred to html due to not working
+
+//Img UI in sproduct.html, click will replace the Main image to where the mouse is pointing
+
+// var MainImg = document.getElementById("MainImg");
+// var smallImg = document.getElementsByClassName("small-img");
+
+// smallImg[0].onclick = function(){
+//     MainImg.src = smallImg[0].src;
+// };
+// smallImg[1].onclick = function(){
+//     MainImg.src = smallImg[1].src;
+// };
+// smallImg[2].onclick = function(){
+//     MainImg.src = smallImg[2].src;
+// };
+// smallImg[3].onclick = function(){
+//     MainImg.src = smallImg[3].src;
+// };
+
+// switch(smallImg) {
+//     case 0:
+//         onclick = function(){
+//         MainImg.src = smallImg[0].src;
+//     };
+//         break;
+//     case 1:
+//         onclick = function(){
+//         MainImg.src = smallImg[1].src;
+//     };
+//         break;
+//     case 2:
+//         onclick = function(){
+//         MainImg.src = smallImg[2].src;
+//     }
+//         break;
+//     case 3:
+//         onclick = function(){
+//         MainImg.src = smallImg[3].src;
+//     }
+//         break;
+// };
