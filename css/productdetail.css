@@ -24,8 +24,13 @@
     padding-top: 30px;
 }
 
+#prodetails .single-pro-details h6{
+    color: #FF7315;
+}
+
 #prodetails .single-pro-details h4{
     padding: 40px 0 20px 0;
+    color: #FF7315;
 }
 
 #prodetails .single-pro-details h2{
@@ -36,6 +41,10 @@
     display: block;
     padding: 5px 10px;
     margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details span{
+    color: #F4F4F4;
 }
 
 #prodetails .single-pro-details input{
