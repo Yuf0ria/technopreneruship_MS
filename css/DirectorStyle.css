@@ -15,6 +15,7 @@ This file is a compilation every CSS made due to the following reasons:
 @import "Home.css";
 @import "shop.css";
 @import "productdetail.css";
+@import "news.css";
 
 /*Mobile Customization*/
 @import "mobile_port.css";
