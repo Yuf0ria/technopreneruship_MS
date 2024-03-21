@@ -18,6 +18,7 @@ This file is a compilation every CSS made due to the following reasons:
 @import "news.css";
 @import "Team.css";
 @import "nouislider";
+@import "cart.css";
 
 /*Mobile Customization*/
 @import "mobile_port.css";
