@@ -1,5 +1,5 @@
-#page-header .blog-header{
-    background-image: url();
+#page-header .news-header{
+    background-image: url("css_img/Untitled\ design.png");
 }
 
 #news{
@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     width: 100%;
+    padding-bottom: 90px;
 }
 
 #news .news-img {
@@ -32,22 +33,7 @@
     font-size: 11px;
     color: #FF7315;
     font-weight: 700;
-    position: relative;
     transition: 0.3s;
-}
-
-#news .news-details a::after {
-    content: "";
-    width: 50px;
-    height: 1px;
-    background-color: #FF7315;
-    position: absolute;
-    top: 4px;
-    right: -60px;
-}
-
-#news .news-details a:hover::after{
-    background-color: #F4F4F4;
 }
 
 #news .news-details a:hover{

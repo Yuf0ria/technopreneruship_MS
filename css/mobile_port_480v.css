@@ -130,5 +130,29 @@
         padding: 40px 10px 20px 10px;
     }
 
-    
+    /* Blog Page */
+
+    #news {
+        padding: 100px 20px 0 20px;
+    }
+
+    #news .news-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #news .news-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #news .news-details {
+        width: 100%;
+    }
+
+    #pagination {
+        padding-bottom: 50px;
+    }
 }
