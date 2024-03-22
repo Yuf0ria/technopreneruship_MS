@@ -10,7 +10,7 @@
 	position: relative;
 	width: 250px;
 	height: 150px;
-	background: #F4F4F4;
+	background: #3A3535;
 	border-radius: 18px;
 	box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 	margin: 0 5px;
@@ -72,7 +72,7 @@
 .userCard .userContent .userDetails h2 {
 	font-size: 1.25em;
 	font-weight: 800;
-	color: #333;
+	color: #F4F4F4;
 	line-height: 1.2em;
 }
 .userCard .userContent .userDetails h2 span {
@@ -88,7 +88,7 @@
 }
 .userCard .userContent .userDetails .desc span {
 	font-size: 1em;
-	color: #333;
+	color: #F4F4F4;
 	line-height: 1.2em;
 	font-weight: 600;
 }
@@ -103,11 +103,11 @@
 	outline: none;
 	font-size: 1.2em;
 	font-weight: 600;
-	background: #333;
-	color: #fff;
+	background: #FF7315;
+	color: #F4F4F4;
 	cursor: pointer;
 }
 .userCard .userContent .userDetails .cardBtn a {
 	font-size: 16px;
-	color: #fff;
+	color: #F4F4F4;
 }
