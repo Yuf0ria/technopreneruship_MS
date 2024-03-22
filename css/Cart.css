@@ -57,3 +57,7 @@
 #cart table tbody td{
     font-size: 13px;
 }
+
+#cart-add{
+    color: #F4F4F4;
+}
