@@ -104,3 +104,16 @@
     border: 1px solid #3A3535;
     padding: 30px;
 }
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50px;
+    border: 1px solid #3A3535;
+    padding: 10px;
+    font-size: 13px;
+}
