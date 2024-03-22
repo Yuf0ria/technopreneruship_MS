@@ -58,6 +58,10 @@
     font-size: 13px;
 }
 
+#cart table tbody tr td a{
+    color: #F4F4F4;
+}
+
 #cart-add{
     color: #F4F4F4;
     display: flex;
