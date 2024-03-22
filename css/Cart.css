@@ -1,3 +1,7 @@
+#cart{
+    overflow-x: auto;
+}
+
 #cart table{
     width: 100%;
     border-collapse: collapse;
@@ -74,7 +78,8 @@
     margin-bottom: 30px;
 }
 
-#coupon h3{
+#coupon h3,
+#subtotal h3{
     padding-bottom: 15px;
 }
 
@@ -86,14 +91,16 @@
     border: 1px solid #3A3535;
 }
 
-#coupon button{
+#coupon button,
+#subtotal button{
     background-color: #FF7315;
     color: #F4F4F4;
     transition: 0.3s ease-in-out;
     padding: 12px 20px;
 }
 
-#coupon button:hover{
+#coupon button:hover,
+#subtotal button:hover{
     background-color: #F4F4F4;
     color: #FF7315;
 }

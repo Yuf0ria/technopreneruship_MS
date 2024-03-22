@@ -155,4 +155,18 @@
     #pagination {
         padding-bottom: 50px;
     }
+
+    /*Cart page*/
+    #cart-add{
+        flex-direction: column;
+    }
+
+    #coupon{
+        width: 100%;
+    }
+
+    #subtotal{
+        width: 100%;
+        padding: 20px;
+    }
 }
