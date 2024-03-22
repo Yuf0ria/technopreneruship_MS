@@ -60,4 +60,35 @@
 
 #cart-add{
     color: #F4F4F4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3{
+    padding-bottom: 15px;
+}
+
+#coupon input{
+    padding: 10px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #3A3535;
+}
+
+#coupon button{
+    background-color: #FF7315;
+    color: #F4F4F4;
+    transition: 0.3s ease-in-out;
+}
+
+#coupon button:hover{
+    background-color: #F4F4F4;
+    color: #FF7315;
 }
