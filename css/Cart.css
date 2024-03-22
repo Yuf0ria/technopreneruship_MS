@@ -90,9 +90,17 @@
     background-color: #FF7315;
     color: #F4F4F4;
     transition: 0.3s ease-in-out;
+    padding: 12px 20px;
 }
 
 #coupon button:hover{
     background-color: #F4F4F4;
     color: #FF7315;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #3A3535;
+    padding: 30px;
 }
