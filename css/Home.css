@@ -89,6 +89,10 @@
     overflow: hidden;
 }
 
+#products h1{
+    padding-top: 50px;
+}
+
 #products .a-container{
     position: relative;
 }
